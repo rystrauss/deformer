@@ -137,3 +137,8 @@ python eval_deformer.py --dataset gas --model_artifact gas_deformer:v0
 ```
 where you can replace `gas_deformer:v0` with the name of the model artifact (in W&B)
 that you wish to evaluate.
+
+## Acknowledgements
+
+We would like to thank Google’s TPU Research Cloud program for providing free access to
+TPUs, which helped with obtaining the results in this repository.
