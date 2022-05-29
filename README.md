@@ -11,8 +11,8 @@ original implementation can be found [here][2]).
 
 DEformer is an order-agnostic autoregressive model, meaning that it can factorize
 the joint likelihood in any order across the features. This is in contrast to typical
-autoregressive models which always represent the joint likelihood as e.g.:
-$$p(\mathbf{x}) = \prod_{i=1}^D p(x_i \mid \mathbf{x}_{<i})$$
+autoregressive models which always do the factorization according to just one single
+order.
 
 While DEformer is ostensibly trained to only maximize the likelihood of the joint
 distribution, the fact that it can do so using any ordering in the chain rule means
